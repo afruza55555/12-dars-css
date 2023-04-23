@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mobile1.css">
+</head>
+<body>
+   <main class="main">
+    <div class="container">
+        <header class="main-header">
+            <nav class="navbar">
+                <ul class="navbar-menu">
+                    <li class="navbar-menu_item"><a href="#" class="navbar-menu_link Heebo-medium">Works</a></li>
+                    <li class="navbar-menu_item"><a href="#" class="navbar-menu_link Heebo-medium">Blog</a></li>
+                    <li class="navbar-menu_item"><a href="#" class="navbar-menu_link Heebo-medium">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </header>
+    </div>
+        <section class="hero">
+            <div class="container">
+              <div class="hero-info">
+                        <div class="hero-text">
+                        <h2 class="hero-title Heebo-bold">
+                            Hi, I am John, <br> Creative Technologist
+                        </h2>
+                        <p class="hero-description Heebo-regular">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br> sint. Velit officia consequat duis enim velit mollit. Exercitation veniam <br> consequat sunt nostrud amet.
+                        </p>
+                        <a href="#" class="btn Heebo-bold">Download Resume</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="Ellipse 1.svg">
+                    </div>
+                </div>
+                
+            </div>
+</section>
+<section class="main-section">
+    <div class="container">
+        <div class="navbar-section">
+            <p class="navbar-section__title Heebo-regular">Resent posts</p>
+            <a href="#" class="navbar-section__link">View all</a>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <h3 class="card-title Heebo-bold">Making a design system from <br> scratch</h3>
+                <div class="card-sections">
+                    <span class="card-section Heebo-regular">12 Feb 2020</span>
+                    <span class="card-section Heebo-regular">|</span>
+                    <span class="card-section Heebo-regular">Design, Pattern</span>
+                </div>
+                <p class="card-description Heebo-regular">
+                    Amet minim mollit non deserunt ullamco est sit <br> aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit. Exercitation veniam <br> consequat sunt nostrud amet.
+                </p>
+            </div>
+            <div class="card">
+                <h3 class="card-title Heebo-bold">Making a design system from <br> scratch</h3>
+                <div class="card-sections">
+                    <span class="card-section Heebo-regular">12 Feb 2020</span>
+                    <span class="card-section Heebo-regular">|</span>
+                    <span class="card-section Heebo-regular">Design, Pattern</span>
+                </div>
+                <p class="card-description Heebo-regular">
+                    Amet minim mollit non deserunt ullamco est sit <br> aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit. Exercitation veniam <br> consequat sunt nostrud amet.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main-section__2">
+    <div class="container">
+        <p class="main-section__title Heebo-regular">Featured works</p>
+        <div class="featureds">
+            <div class="featured">
+            <div class="featured-image">
+                <img src="Rectangle 30.svg">
+            </div>
+            <div class="featured-info">
+                <h3 class="featured-title Heebo-bold">Designing Dashboards</h3>
+                <a href="#" class="btn-1 Heebo-bold">2020</a>	
+                    <p  class="btn-title">Dashboard</p>
+                <p class="featured-description Heebo-regular">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit <br> officia consequat duis enim velit mollit. Exercitation veniam consequat sunt <br> nostrud amet.
+                </p>
+            </div>
+        </div>
+        <div class="featureds mobile-featured">
+            <div class="featured">
+                <div class="featured-image">
+                    <img src="Rectangle 32.svg">
+                </div>
+                <div class="featured-info">
+                    <h3 class="featured-title Heebo-bold">Vibrant Portraits of 2020</h3>
+                    <a href="#" class="btn-1 Heebo-bold">2018</a>	
+                        <p  class="btn-title">Illustration</p>
+                    <p class="featured-description Heebo-regular">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit <br> officia consequat duis enim velit mollit. Exercitation veniam consequat sunt <br> nostrud amet.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="featureds mobile-featured">
+            <div class="featured">
+                <div class="featured-image">
+                    <img src="Rectangle 34.svg">
+                </div>
+                <div class="featured-info">
+                    <h3 class="featured-title Heebo-bold">36 Days of Malayalam type</h3>
+                    <a href="#" class="btn-1 Heebo-bold">2018</a>	
+                        <p  class="btn-title">Typography</p>
+                    <p class="featured-description Heebo-medium">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit <br> officia consequat duis enim velit mollit. Exercitation veniam consequat sunt <br> nostrud amet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   </main>
+   <footer class="footer">
+    <div class="container">
+        <div class="icon-image">
+            <a href="#" class="icon-link">
+                <img src="fb.svg">
+            </a>
+            <a href="#" class="icon-link">
+                <img src="insta.svg">
+            </a>
+            <a href="#" class="icon-link">
+                <img src="Group.svg">
+            </a>
+            <a href="#" class="icon-link">
+                <img src="Linkedin.svg">
+            </a>
+        </div>
+        <p class="footer-title Heebo-regular">
+            Copyright ©2020 All rights reserved 
+        </p>
+         </div>
+   </footer>
+</body>
+</html>
